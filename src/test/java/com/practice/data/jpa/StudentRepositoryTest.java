@@ -103,7 +103,6 @@ public class StudentRepositoryTest {
 		System.out.println("Student by email Native Param: " + student);
 	}
 	
-	
 	@Test
 	public void updateFirstNameByEmailAddress() {
 		int result = studentRepository.updateStudentFirstNameByEmailId("Darshan", "darshanshirsath09@gmail.com");
