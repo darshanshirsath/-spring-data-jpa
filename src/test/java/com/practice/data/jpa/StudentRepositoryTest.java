@@ -13,6 +13,7 @@ import com.practice.data.jpa.repository.StudentRepository;
 
 
 @SpringBootTest
+@Disabled
 public class StudentRepositoryTest {
 
 	@Autowired
